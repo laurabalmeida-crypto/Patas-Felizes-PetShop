@@ -65,14 +65,14 @@ form.addEventListener("submit", function (evento) {
 
   // mensagem: pelo menos 10 caracteres
   if (campoMensagem.value.trim().length < 10) {
-    mostrarErro(campoMensagem, "erro-mensagem", "Escreva seu pedido com pelo menos 10 caracteres.");
+   mostrarErro(campoMensagem, "erro-mensagem", "Escreva sua mensagem com pelo menos 10 caracteres.");
     valido = false;
   } else {
     mostrarErro(campoMensagem, "erro-mensagem", "");
   }
 
   if (valido) {
-    confirmacao.textContent = "Pedido recebido, " + campoNome.value.trim() + "! Vamos responder pelo WhatsApp.";
+    confirmacao.textContent = "Mensagem recebida, " + campoNome.value.trim() + "! Em breve entraremos em contato pelo WhatsApp.";
     form.reset();
   }
 });
