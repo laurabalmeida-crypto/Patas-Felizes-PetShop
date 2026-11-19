@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patas Felizes| Candeias</title>
+  <meta name="description" content="O App perfeito para quem procura acessórios e serviços para seu pet.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- CABEÇALHO: nome da empresa e menu -->
+  <header class="cabecalho">
+    <a href="#inicio" class="marca">
+      <img src="img/logo.svg" alt="" width="44" height="44">
+      <span>Açaí da Rita</span>
+    </a>
+    <nav aria-label="Menu principal">
+      <ul class="menu">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#catalogo">Cardápio</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- SEÇÃO 1: INÍCIO -->
+    <section id="inicio" class="inicio">
+      <h1>O açaí mais cremoso de Candeias</h1>
+      <p>Copos, tigelas, cremes e sucos feitos na hora, com frutas da região.</p>
+      <a href="#contato" class="botao">Fazer pedido</a>
+    </section>
+
+    <!-- SEÇÃO 2: CATÁLOGO -->
+    <section id="catalogo" class="secao">
+      <h2>Serviços e Produtos</h2>
+
+      <div class="filtros" aria-label="Filtrar o cardápio por categoria">
+        <button type="button" class="filtro ativo" data-filtro="todos" aria-pressed="true">Todos</button>
+        <button type="button" class="filtro" data-filtro="Rações" aria-pressed="false">Rações</button>
+        <button type="button" class="filtro" data-filtro="Coleiras e Camas" aria-pressed="false">Coleiras e Camas</button>
+        <button type="button" class="filtro" data-filtro="Brinquedos" aria-pressed="false">Brinquedos</button>
+        <button type="button" class="filtro" data-filtro="Banhos e Tosa" aria-pressed="false">Banhos e Tosa</button>
+      </div>
+
+      <div class="cards">
+        <article class="card" data-categoria="Rações">
+          <img src="./img/Ração para cão adulto 3kg.webp" alt="Ração para cão adulto 3kg" width="200" height="150">
+          <h3>Ração</h3>
+          <p>Ração para cão adulto 3kg.</p>
+          <p class="preco">R$ 65,00</p>
+        </article>
+        <article class="card" data-categoria="Rações">
+          <img src="./img/Ração para gato 1kg.jpg" alt="Ração para gato 1kg" width="200" height="150">
+          <h3>Ração</h3>
+          <p>Ração para gato 1kg.</p>
+          <p class="preco">R$ 30,00</p>
+        </article>
+        <article class="card" data-categoria="Coleiras e Camas">
+          <img src="./img/Coleira Ajustável.webp" alt="Coleira Ajustável" width="200" height="150">
+          <h3>Coleira</h3>
+          <p>Coleira Ajustável.</p>
+          <p class="preco">R$ 25,00</p>
+        </article>
+        <article class="card" data-categoria="Coleiras e Camas">
+          <img src="./img/Cama pet médio.webp" alt="Cama pet médio" width="200" height="150">
+          <h3>Cama</h3>
+          <p>Cama pet médio.</p>
+          <p class="preco">R$ 90,00</p>
+        </article>
+        <article class="card" data-categoria="Brinquedos">
+          <img src="./img/Brinquedo mordedor.webp" alt="Brinquedo mordedor" width="200" height="150">
+          <h3>Brinquedo</h3>
+          <p>Brinquedo mordedor.</p>
+          <p class="preco">R$ 15,00</p>
+        </article>
+        <article class="card" data-categoria="Banhos e Tosa">
+          <img src="./img/Banho e Tosa para cão pequeno.webp" alt="Banho e Tosa para cão pequeno" width="200" height="150">
+          <h3>Banho e Tosa</h3>
+          <p>Banho e Tosa para cão pequeno.</p>
+          <p class="preco">R$ 40,00</p>
+        </article>
+        <article class="card" data-categoria="Banhos e Tosa">
+          <img src="./img/Banho e Tosa para cão médio.webp" alt="Banho e Tosa para cão médio" width="200" height="150">
+          <h3>Banho e Tosa</h3>
+          <p>Banho e Tosa para cão médio.</p>
+          <p class="preco">R$ 70,00</p>
+        </article>
+        <article class="card" data-categoria="Banhos e Tosa">
+          <img src="./img/Banho e tosa para gato.jpg" alt="Banho e tosa para gato" width="200" height="150">
+          <h3>Banho e Tosa</h3>
+          <p>Banho e tosa para gato.</p>
+          <p class="preco">R$ 50,00</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 3: SOBRE -->
+    <section id="sobre" class="secao sobre">
+      <h2>Sobre nós</h2>
+      <p>A Rita começou vendendo açaí na porta de casa em 2018. O sabor conquistou o bairro e, em 2021, nasceu a loja. Até hoje o açaí é batido na hora e as frutas vêm de feiras da região.</p>
+
+      <div class="sobre-blocos">
+        <div>
+          <h3>Horários</h3>
+          <ul>
+            <li>Terça a domingo: 14h às 22h</li>
+            <li>Segunda: fechado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Onde estamos</h3>
+          <address>
+            Rua Fictícia do Açaí, 100, Centro, Candeias (BA)<br>
+            WhatsApp: (71) 90000-0000<br>
+            Instagram: @acaidarita.exemplo
+          </address>
+        </div>
+        <div>
+          <h3>Pagamento</h3>
+          <p>Pix, dinheiro e cartão.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 4: CONTATO -->
+    <section id="contato" class="secao">
+      <h2>Faça seu pedido</h2>
+      <p>Mande sua mensagem e respondemos pelo WhatsApp.</p>
+
+      <form id="form-contato" class="formulario" novalidate>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" autocomplete="name">
+        <small class="erro" id="erro-nome"></small>
+
+        <label for="telefone">Telefone com DDD</label>
+        <input type="tel" id="telefone" name="telefone" autocomplete="tel" placeholder="(71) 99999-9999">
+        <small class="erro" id="erro-telefone"></small>
+
+        <label for="mensagem">Pedido ou mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+        <small class="erro" id="erro-mensagem"></small>
+
+        <button type="submit" class="botao">Enviar</button>
+        <p id="confirmacao" class="confirmacao" aria-live="polite"></p>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <p>Açaí da Rita · Candeias (BA) · Site de exemplo do Projeto Integrador SENAI</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
