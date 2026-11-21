@@ -1,6 +1,6 @@
 :root {
   --roxo: #fc9d3f;
-  --roxo-claro: #B2D1E7;
+  --roxo-claro: #e0f4ff;
   --verde: #414241;
   --creme: #ffffff;
   --texto: #222222;
@@ -18,7 +18,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: var(--texto);
-  background: var(--creme);
+  background: var(--roxo-claro);
 }
 
 img {
