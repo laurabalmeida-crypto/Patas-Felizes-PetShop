@@ -1,12 +1,12 @@
-# Açaí da Rita
+# Patas Felizes
 
-Site institucional de exemplo da Açaí da Rita, em Candeias (BA). Modelo do docente para o Projeto Integrador de Projeto de Front-End (SENAI). O negócio e os dados de contato são fictícios.
+Site institucional do Patas Felizes, pet shop em Candeias (BA), desenvolvido como Projeto Integrador de Projeto de Front-End (SENAI).
 
-Site publicado: https://andersongomesmeireles.github.io/acai-da-rita/
+Site publicado: [https://laurabalmeida-crypto.github.io/Patas-Felizes-PetShop/](https://laurabalmeida-crypto.github.io/Patas-Felizes-PetShop/)
 
 ## Funcionalidades
-- Cardápio com filtro por categoria
-- Formulário de pedido com validação
+- Catálogo com filtro por categoria (rações, coleiras e camas, brinquedos e banho e tosa).
+- Seção sobre o negócio, agendamento de banho e tosa e contato.
 
 ## Tecnologias
 HTML5, CSS3, JavaScript, Git, GitHub Pages
